@@ -28,6 +28,6 @@ cit7 = [6];
 men7 = [1 1 1];
 analyzuj_vlastnosti(cit7, men7)
 % neperiodicita
-cit7 = [6];
-men7 = [4 0];
-analyzuj_vlastnosti(cit7, men7)
+cit8 = [6];
+men8 = [4 0];
+analyzuj_vlastnosti(cit8, men8)

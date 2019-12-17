@@ -3,8 +3,12 @@ function analyzuj_vlastnosti(cit, men)
         disp('System nie je fyzikalne realizovatelny.')
     elseif length(cit)==length(men)
         disp('System je rydzi.')
+        figure
+        step(tf(cit,men))
     else
         disp('System je striktne rydzi.')
+        figure
+        step(tf(cit,men))
     end      
     
     if roots(men)<0
