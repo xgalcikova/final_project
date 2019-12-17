@@ -19,3 +19,7 @@ analyzuj_vlastnosti(cit4, men4)
 cit5 = [6];
 men5 = [3 4 -5];
 analyzuj_vlastnosti(cit5, men5)
+% hranica stability
+cit5 = [6];
+men5 = [1 0];
+analyzuj_vlastnosti(cit5, men5)

@@ -9,7 +9,9 @@ function analyzuj_vlastnosti(cit, men)
     
     if roots(men)<0
         disp('System je stabilny.')
-    else
+    elseif roots(men)>0
         disp('System nie je stabilny.')
+    else
+        disp('System je na hranici stability.')
     end
 end
