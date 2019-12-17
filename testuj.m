@@ -20,6 +20,14 @@ cit5 = [6];
 men5 = [3 4 -5];
 analyzuj_vlastnosti(cit5, men5)
 % hranica stability
-cit5 = [6];
-men5 = [1 0];
-analyzuj_vlastnosti(cit5, men5)
+cit6 = [6];
+men6 = [1 0];
+analyzuj_vlastnosti(cit6, men6)
+% periodicita
+cit7 = [6];
+men7 = [1 1 1];
+analyzuj_vlastnosti(cit7, men7)
+% neperiodicita
+cit7 = [6];
+men7 = [4 0];
+analyzuj_vlastnosti(cit7, men7)

@@ -14,4 +14,11 @@ function analyzuj_vlastnosti(cit, men)
     else
         disp('System je na hranici stability.')
     end
+    
+    if imag(roots(men))==0
+        disp('System je aperiodicky.')
+    else
+        disp('System je periodicky.')
+    end
+    
 end
