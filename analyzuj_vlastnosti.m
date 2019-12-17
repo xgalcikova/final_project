@@ -5,5 +5,11 @@ function analyzuj_vlastnosti(cit, men)
         disp('System je rydzi.')
     else
         disp('System je striktne rydzi.')
-    end        
+    end      
+    
+    if roots(men)<0
+        disp('System je stabilny.')
+    else
+        disp('System nie je stabilny.')
+    end
 end
